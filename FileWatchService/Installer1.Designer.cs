@@ -1,13 +1,13 @@
 ﻿namespace FileWatchService
 {
-    partial class Service1
+    partial class Installer1
     {
-        /// <summary> 
+        /// <summary>
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
+        /// <summary> 
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
@@ -22,24 +22,15 @@
 
         #region Component Designer generated code
 
-        /// <summary> 
-        /// Required method for Designer support - do not modify 
+        /// <summary>
+        /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.eventLog1 = new System.Diagnostics.EventLog();
-            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
-            // 
-            // Service1
-            // 
-            this.ServiceName = "Service1";
-            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
-
+            components = new System.ComponentModel.Container();
         }
 
         #endregion
-
-        private System.Diagnostics.EventLog eventLog1;
     }
 }
